@@ -19,6 +19,9 @@ Plan alanları (bkz. ornek_plan.json):
       volume        orijinal ses seviyesi (1 = aynı)
       text          bu klip süresince gösterilecek ekran yazısı
       text_style    hook | label | center | caption | box   (varsayılan: ilk klipte hook, sonra label)
+      precrop       [x, y, w, h] kaynak pikselinde ön kırpma (siyah bantları atmak için; bkz. cropdetect)
+      delogo        [x, y, w, h] kaynak pikselinde logo/filigran silme (CapCut, TikTok logosu)
+  src_defaults      {"kaynak.mov": {...}} -> o kaynağı kullanan tüm kliplere varsayılan alanlar
   captions[]        zaman çizelgesine göre ek yazılar: {start, end, text, style}
   music             {src, volume (0-1), start (müzik içinde başlangıç sn), duck (bool), fade_out (sn)}
   loudnorm          true -> -14 LUFS (varsayılan true)
@@ -98,7 +101,14 @@ def render_clip(c, i, W, H, FPS, base, tmp):
     else:
         vf = (f"scale={int(W * z0)}:{int(H * z0)}:force_original_aspect_ratio=increase,"
               f"crop={W}:{H}:(iw-{W})*{cx}:(ih-{H})*{cy}")
-    vf = f"setpts=(PTS-STARTPTS)/{speed}," + vf + f",fps={FPS},setsar=1,format=yuv420p"
+    prefix = ""
+    if c.get("precrop"):  # [x, y, w, h] kaynak pikseli: siyah bant vb. at
+        x, y, w, h = c["precrop"]
+        prefix += f"crop={w}:{h}:{x}:{y},"
+    if c.get("delogo"):   # [x, y, w, h] kaynak pikseli: CapCut/TikTok logosu vb. sil
+        x, y, w, h = c["delogo"]
+        prefix += f"delogo=x={x}:y={y}:w={w}:h={h},"
+    vf = prefix + f"setpts=(PTS-STARTPTS)/{speed}," + vf + f",fps={FPS},setsar=1,format=yuv420p"
 
     mute = c.get("mute", speed >= 2.5)
     use_audio = (not is_img) and (not mute) and has_audio(src)
@@ -194,7 +204,9 @@ def main():
     tmp = tempfile.mkdtemp(prefix="kurgu_")
     try:
         parts, events, t = [], [], 0.0
+        src_defaults = plan.get("src_defaults", {})
         for i, c in enumerate(plan["clips"]):
+            c = {**src_defaults.get(c["src"], {}), **c}
             path, d = render_clip(c, i, W, H, FPS, base, tmp)
             parts.append(path)
             if c.get("text"):
