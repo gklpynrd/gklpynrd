@@ -33,9 +33,9 @@ En viral dikiş formatı. Eski/ucuz bir şeyin dönüşümü.
 
 | Zaman | İçerik | Yazı örneği |
 |---|---|---|
-| 0–1.2 sn | Final halinden 1 kare/hareket (teaser) VEYA "before" eşyayı kameraya tutma | "Bu 50₺'lik ceketi..." |
-| 1.2–3 sn | Before: eşyanın kötü hali, hızlı 2 kesim | "...bunun yerine bunu yaptım" |
-| 3–20 sn | Kesme, söküm, dikiş — 0.5–1 sn kesimler, 4–12x hız | Kısa adım etiketleri: "söktüm", "kalıp çıkardım" |
+| 0–1.2 sn | Final halinden 1 kare/hareket (teaser) VEYA "before" eşyayı kameraya tutma | "Bitpazarından 50 liraya aldım..." |
+| 1.2–3 sn | Before: eşyanın kötü hali, hızlı 2 kesim | "...bakın neye çevirdim" |
+| 3–20 sn | Kesme, söküm, dikiş — 0.5–1 sn kesimler, 4–12x hız | Kısa adım yazıları: "Önce söküyoruz", "Kalıbını çıkarıyoruz" |
 | 20–28 sn | Reveal: giyme, dönme, aynaya bakış — 1x/0.8x | (yazı yok ya da "sonuç 👇") |
 
 Varyasyonlar: "Bitpazarından 3 parça → 1 elbise", "Annemin eski perdesinden", "Erkek gömleğinden kadın bluz".
@@ -73,18 +73,50 @@ Dikilen ürünleri satan veya portföy gösteren hesaplar için.
 
 ---
 
+## Türkçe yazı kuralları (ÖNEMLİ)
+Ekran yazıları İngilizce kalıpların çevirisi gibi durmamalı. Türk dikiş hesaplarında konuşulan dil
+samimi, kısa ve sohbet havasındadır. Yazmadan önce kendine sor: "Bunu biri arkadaşına anlatırken
+böyle mi söyler?"
+
+- **Adım yazıları "-iyoruz" ile yazılır** (izleyiciyle birlikte yapıyormuş gibi): "Astarını dikiyoruz",
+  "Şimdi ters yüz ediyoruz", "En son çıtçıtını çakıyoruz". Kişisel hikâyede "-dım" olabilir.
+- **İyelik ekini kullan:** "Telayı yapıştırdım" yerine "Telasını yapıştırıyoruz", "Fermuarını takıyoruz".
+- **Dikiş terimlerini doğru kullan:** tela yapıştırmak, kapitone dikmek, ters yüz etmek, çıtçıt çakmak,
+  overlok çekmek, teyellemek, pens almak, biye geçirmek, kalıp çıkarmak, sökmek.
+- **Sıralama sözcükleri:** "Önce", "Sonra", "Sıra astarda", "En son". "Ardından", "Son olarak"
+  gibi resmi bağlaçlar yazı dilinde kalır, videoda yapay durur.
+- **Başlık:** "1. Kelebekli çanta". "1/4", "Part 1", "Bölüm 1" gibi biçimler yabancı durur.
+- **Espri Türkçe olmalı:** Kedi/evcil hayvan için "Ustam yine başımda", "Bir hata yaparsam hemen söyler".
+  "Kalite kontrol", "asistanım işbaşında" gibi İngilizceden gelen şakalar yapay durur.
+- **Kapanış sorusu doğal olsun:** "En çok hangisini beğendiniz?", "Siz olsanız hangi kumaşı seçerdiniz?"
+
+| Yapay (çeviri gibi) | Doğal |
+|---|---|
+| İşte yapılışları | Hepsinin yapılışı videoda |
+| Bu hafta 4 şey diktim | Bu hafta neler diktim? |
+| Çizgilerin üzerinden tek tek diktim | Çizdiğimiz yerlerden dikiyoruz |
+| Ardından astarı ekledim | Sıra astarda |
+| Son olarak çıtçıtı çaktım | En son çıtçıtını çakıyoruz |
+| Kalite kontrol her zamanki gibi sıkı | Bir hata yaparsam hemen söyler |
+| Bunu yapınca her şey değişti | Bunu öğrenince dikişim değişti |
+| Herkes bu dikişi yanlış yapıyor | Bu dikişi çoğumuz yanlış biliyoruz |
+
+Emoji ekran yazısında çıkmaz (font desteklemez); emojiyi açıklama metnine koy.
+Emin olmadığın bir ürün adını kullanıcıya sor ya da genel bir ad kullan ("çanta", "kılıf").
+
 ## Hook kütüphanesi (Türkçe)
 Sonuç önce:
 - "Bu elbise eskiden bir nevresimdi"
-- "50₺'lik bitpazarı ceketini buna çevirdim"
-- "İlk diktiğim elbise vs. 100. elbise"
+- "Bitpazarından 50 liraya aldığım ceketi bakın neye çevirdim"
+- "İlk diktiğim elbise ile yüzüncüsü"
 Merak:
-- "Terzinin söylemediği şey"
-- "Bunu yapınca her şey değişti"
-- "Herkes bu dikişi yanlış yapıyor"
+- "Terzilerin pek anlatmadığı bir püf noktası"
+- "Bunu öğrenince dikişim değişti"
+- "Bu dikişi çoğumuz yanlış biliyoruz"
 Rakam / meydan okuma:
-- "24 saatte balo elbisesi"
-- "Tek metre kumaştan 3 parça"
+- "Bir günde abiye diktim"
+- "Bir metre kumaştan üç parça çıkardım"
+- "Bu hafta neler diktim?"
 Duygu:
 - "Babaannemin makinesiyle diktiğim ilk şey"
 - "Mezuniyet elbisemi kendim diktim"
