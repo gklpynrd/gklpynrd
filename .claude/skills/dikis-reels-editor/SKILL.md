@@ -70,7 +70,7 @@ Kontak sayfasına bakarak "altın anları" bul ve zaman damgalarını çıkar:
 - **Loop**: Son kare, ilk kareye bağlanacak şekilde bitir (aynı poz/kumaş), tekrar izlemeyi artırır.
 - Toplam: 15–35 sn (ASMR/tutorial 45–60 sn'ye kadar çıkabilir).
 - **Ekran yazılarını `formatlar.md` içindeki "Türkçe yazı kuralları"na göre yaz.** Çeviri gibi duran
-  cümle kullanma; adım yazıları "-iyoruz" ile, kısa ve samimi olsun.
+  cümle kullanma; adım yazıları "-dım" ile (birinci tekil geçmiş zaman), kısa ve samimi olsun.
 - Yazılar ekranın orta-üst bölgesinde (alt %20 ve sağ kenar platform arayüzüyle kaplanır).
 
 ### 5. Render

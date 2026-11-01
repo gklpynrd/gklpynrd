@@ -35,7 +35,7 @@ En viral dikiş formatı. Eski/ucuz bir şeyin dönüşümü.
 |---|---|---|
 | 0–1.2 sn | Final halinden 1 kare/hareket (teaser) VEYA "before" eşyayı kameraya tutma | "Bitpazarından 50 liraya aldım..." |
 | 1.2–3 sn | Before: eşyanın kötü hali, hızlı 2 kesim | "...bakın neye çevirdim" |
-| 3–20 sn | Kesme, söküm, dikiş — 0.5–1 sn kesimler, 4–12x hız | Kısa adım yazıları: "Önce söküyoruz", "Kalıbını çıkarıyoruz" |
+| 3–20 sn | Kesme, söküm, dikiş — 0.5–1 sn kesimler, 4–12x hız | Kısa adım yazıları: "Önce söktüm", "Kalıbını çıkardım" |
 | 20–28 sn | Reveal: giyme, dönme, aynaya bakış — 1x/0.8x | (yazı yok ya da "sonuç 👇") |
 
 Varyasyonlar: "Bitpazarından 3 parça → 1 elbise", "Annemin eski perdesinden", "Erkek gömleğinden kadın bluz".
@@ -78,12 +78,12 @@ Ekran yazıları İngilizce kalıpların çevirisi gibi durmamalı. Türk dikiş
 samimi, kısa ve sohbet havasındadır. Yazmadan önce kendine sor: "Bunu biri arkadaşına anlatırken
 böyle mi söyler?"
 
-- **Adım yazıları "-iyoruz" ile yazılır** (izleyiciyle birlikte yapıyormuş gibi): "Astarını dikiyoruz",
-  "Şimdi ters yüz ediyoruz", "En son çıtçıtını çakıyoruz". Kişisel hikâyede "-dım" olabilir.
-- **İyelik ekini kullan:** "Telayı yapıştırdım" yerine "Telasını yapıştırıyoruz", "Fermuarını takıyoruz".
+- **Adım yazıları birinci tekil geçmiş zamanla ("-dım") yazılır** (kullanıcının tercihi): "Astarını diktim",
+  "Sonra ters yüz ettim", "En son çıtçıtını çaktım". "-iyoruz" / "-dık" kullanma.
+- **İyelik ekini kullan:** "Telayı yapıştırdım" yerine "Telasını yapıştırdım", "Fermuarını taktım".
 - **Dikiş terimlerini doğru kullan:** tela yapıştırmak, kapitone dikmek, ters yüz etmek, çıtçıt çakmak,
   overlok çekmek, teyellemek, pens almak, biye geçirmek, kalıp çıkarmak, sökmek.
-- **Sıralama sözcükleri:** "Önce", "Sonra", "Sıra astarda", "En son". "Ardından", "Son olarak"
+- **Sıralama sözcükleri:** "Önce", "Sonra", "Sıra astardaydı", "En son". "Ardından", "Son olarak"
   gibi resmi bağlaçlar yazı dilinde kalır, videoda yapay durur.
 - **Başlık:** "1. Kelebekli çanta". "1/4", "Part 1", "Bölüm 1" gibi biçimler yabancı durur.
 - **Espri Türkçe olmalı:** Kedi/evcil hayvan için "Ustam yine başımda", "Bir hata yaparsam hemen söyler".
@@ -94,9 +94,9 @@ böyle mi söyler?"
 |---|---|
 | İşte yapılışları | Hepsinin yapılışı videoda |
 | Bu hafta 4 şey diktim | Bu hafta neler diktim? |
-| Çizgilerin üzerinden tek tek diktim | Çizdiğimiz yerlerden dikiyoruz |
-| Ardından astarı ekledim | Sıra astarda |
-| Son olarak çıtçıtı çaktım | En son çıtçıtını çakıyoruz |
+| Çizgilerin üzerinden tek tek diktim | Çizdiğim yerlerden diktim |
+| Ardından astarı ekledim | Sonra astarını diktim |
+| Son olarak çıtçıtı çaktım | En son çıtçıtını çaktım |
 | Kalite kontrol her zamanki gibi sıkı | Bir hata yaparsam hemen söyler |
 | Bunu yapınca her şey değişti | Bunu öğrenince dikişim değişti |
 | Herkes bu dikişi yanlış yapıyor | Bu dikişi çoğumuz yanlış biliyoruz |
